@@ -1,0 +1,8 @@
+.vscode
+.husky
+*.config.js
+.*rc.js
+**/public
+**/build
+**/dist
+**/docs
