@@ -2,21 +2,21 @@
 
 ### Table of Contents
 
-- [formatNumber][1]
-  - [Parameters][2]
-  - [Examples][3]
-- [limitMaxNumber][4]
-  - [Parameters][5]
-- [formatUrl][6]
-  - [Parameters][7]
-- [addPre0][8]
-  - [Parameters][9]
-  - [Examples][10]
-- [formatDuration][11]
-  - [Parameters][12]
-- [isServer][13]
-- [importScript][14]
-  - [Parameters][15]
+*   [formatNumber][1]
+    *   [Parameters][2]
+    *   [Examples][3]
+*   [limitMaxNumber][4]
+    *   [Parameters][5]
+*   [formatUrl][6]
+    *   [Parameters][7]
+*   [addPre0][8]
+    *   [Parameters][9]
+    *   [Examples][10]
+*   [formatDuration][11]
+    *   [Parameters][12]
+*   [isServer][13]
+*   [importScript][14]
+    *   [Parameters][15]
 
 ## formatNumber
 
@@ -26,8 +26,8 @@
 
 ### Parameters
 
-- `n` **[number][17]**
-- `config` (optional, default `{level:10000,precision:1,unit:'万'}`)
+*   `n` **[number][17]** 
+*   `config`   (optional, default `{level:10000,precision:1,unit:'万'}`)
 
 ### Examples
 
@@ -43,19 +43,19 @@ formatNumber(10001) -> '1万'
 formatNumber(14999) -> '1.5万'
 ```
 
-Returns **([number][17] | [string][18])**
+Returns **([number][17] | [string][18])** 
 
 ## limitMaxNumber
 
 [packages/fn/src/index.ts:45-58][19]
 
-限制展示的最高数字
+限制展示的最大数字
 
 ### Parameters
 
-- `n` **[number][17]** 被转换的数字
-- `max` 触发转换规则的【阀值】，默认为 99 (optional, default `99`)
-- `suffix` 转换后添加的【后缀符号】，默认为 '+' (optional, default `'+'`)
+*   `n` **[number][17]** 被转换的数字
+*   `max`  触发转换规则的【阀值】，默认为 99 (optional, default `99`)
+*   `suffix`  转换后添加的【后缀符号】，默认为 '+' (optional, default `'+'`)
 
 Returns **([number][17] | [string][18])** 转换结果
 
@@ -67,9 +67,9 @@ Returns **([number][17] | [string][18])** 转换结果
 
 ### Parameters
 
-- `url` **[string][18]?**
+*   `url` **[string][18]?** 
 
-Returns **[string][18]**
+Returns **[string][18]** 
 
 ## addPre0
 
@@ -79,8 +79,8 @@ Returns **[string][18]**
 
 ### Parameters
 
-- `num` **([number][17] | [string][18])**
-- `length` (optional, default `2`)
+*   `num` **([number][17] | [string][18])** 
+*   `length`   (optional, default `2`)
 
 ### Examples
 
@@ -88,7 +88,7 @@ Returns **[string][18]**
 addPre0(1) => '01'
 ```
 
-Returns **[string][18]**
+Returns **[string][18]** 
 
 ## formatDuration
 
@@ -98,7 +98,7 @@ Returns **[string][18]**
 
 ### Parameters
 
-- `data` **[Number][17]** 秒
+*   `data` **[Number][17]** 秒
 
 Returns **[String][18]** 格式化为\[<HH>:]<mm>:<ss>
 
@@ -108,7 +108,7 @@ Returns **[String][18]** 格式化为\[<HH>:]<mm>:<ss>
 
 判断是否是 Server 端
 
-Returns **[boolean][24]**
+Returns **[boolean][24]** 
 
 ## importScript
 
@@ -118,34 +118,60 @@ Returns **[boolean][24]**
 
 ### Parameters
 
-- `src` **[String][18]** 脚本地址
+*   `src` **[String][18]** 脚本地址
 
 Returns **[Promise][26]<[HTMLScriptElement][27]>** 创建的 script 元素
 
 [1]: #formatnumber
+
 [2]: #parameters
+
 [3]: #examples
+
 [4]: #limitmaxnumber
+
 [5]: #parameters-1
+
 [6]: #formaturl
+
 [7]: #parameters-2
+
 [8]: #addpre0
+
 [9]: #parameters-3
+
 [10]: #examples-1
+
 [11]: #formatduration
+
 [12]: #parameters-4
+
 [13]: #isserver
+
 [14]: #importscript
+
 [15]: #parameters-5
-[16]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/fn/src/index.ts#L15-L36 'Source code on GitHub'
+
+[16]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L15-L36 "Source code on GitHub"
+
 [17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+
 [18]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
-[19]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/fn/src/index.ts#L45-L58 'Source code on GitHub'
-[20]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/fn/src/index.ts#L64-L69 'Source code on GitHub'
-[21]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/fn/src/index.ts#L76-L78 'Source code on GitHub'
-[22]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/fn/src/index.ts#L85-L106 'Source code on GitHub'
-[23]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/fn/src/index.ts#L111-L113 'Source code on GitHub'
+
+[19]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L45-L58 "Source code on GitHub"
+
+[20]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L64-L69 "Source code on GitHub"
+
+[21]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L76-L78 "Source code on GitHub"
+
+[22]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L85-L106 "Source code on GitHub"
+
+[23]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L111-L113 "Source code on GitHub"
+
 [24]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
-[25]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/fn/src/index.ts#L120-L136 'Source code on GitHub'
+
+[25]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L120-L136 "Source code on GitHub"
+
 [26]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
 [27]: https://developer.mozilla.org/docs/Web/API/HTMLScriptElement

@@ -116,24 +116,24 @@ Returns **[boolean][17]**
 
 [13]: #hasitem-1
 
-[14]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/cookie/src/index.ts#L23-L39 "Source code on GitHub"
+[14]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L23-L39 "Source code on GitHub"
 
 [15]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
-[16]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/cookie/src/index.ts#L57-L95 "Source code on GitHub"
+[16]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L57-L95 "Source code on GitHub"
 
 [17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 
-[18]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/cookie/src/index.ts#L103-L122 "Source code on GitHub"
+[18]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L103-L122 "Source code on GitHub"
 
-[19]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/cookie/src/index.ts#L128-L136 "Source code on GitHub"
+[19]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L128-L136 "Source code on GitHub"
 
-[20]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/cookie/src/index.ts#L142-L147 "Source code on GitHub"
+[20]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L142-L147 "Source code on GitHub"
 
-[21]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/cookie/src/index.ts#L143-L143 "Source code on GitHub"
+[21]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L143-L143 "Source code on GitHub"
 
-[22]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/cookie/src/index.ts#L144-L144 "Source code on GitHub"
+[22]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L144-L144 "Source code on GitHub"
 
-[23]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/cookie/src/index.ts#L145-L145 "Source code on GitHub"
+[23]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L145-L145 "Source code on GitHub"
 
-[24]: https://github.com/magnnus/fn-tools/blob/d9670e1f130d26da7ef9caa3d4433e32e4605e84/packages/cookie/src/index.ts#L146-L146 "Source code on GitHub"
+[24]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L146-L146 "Source code on GitHub"
