@@ -20,13 +20,11 @@
 
 ## formatNumber
 
-[packages/fn/src/index.ts:15-36][16]
-
 省略第二个参数，则默认按 '万'（level = 10000, unit = '万‘） 转换，保留 1（precision = 1） 位小数
 
 ### Parameters
 
-*   `n` **[number][17]** 
+*   `n` **[number][16]** 
 *   `config`   (optional, default `{level:10000,precision:1,unit:'万'}`)
 
 ### Examples
@@ -43,43 +41,37 @@ formatNumber(10001) -> '1万'
 formatNumber(14999) -> '1.5万'
 ```
 
-Returns **([number][17] | [string][18])** 
+Returns **([number][16] | [string][17])** 
 
 ## limitMaxNumber
-
-[packages/fn/src/index.ts:45-58][19]
 
 限制展示的最大数字
 
 ### Parameters
 
-*   `n` **[number][17]** 被转换的数字
+*   `n` **[number][16]** 被转换的数字
 *   `max`  触发转换规则的【阀值】，默认为 99 (optional, default `99`)
 *   `suffix`  转换后添加的【后缀符号】，默认为 '+' (optional, default `'+'`)
 
-Returns **([number][17] | [string][18])** 转换结果
+Returns **([number][16] | [string][17])** 转换结果
 
 ## formatUrl
-
-[packages/fn/src/index.ts:64-69][20]
 
 后端返回的地址有时是 http 的，浏览器会提醒站点安全问题或一些业务无关的展示 Bug
 
 ### Parameters
 
-*   `url` **[string][18]?** 
+*   `url` **[string][17]?** 
 
-Returns **[string][18]** 
+Returns **[string][17]** 
 
 ## addPre0
-
-[packages/fn/src/index.ts:76-78][21]
 
 省略第二个参数，则数字最长 = 2
 
 ### Parameters
 
-*   `num` **([number][17] | [string][18])** 
+*   `num` **([number][16] | [string][17])** 
 *   `length`   (optional, default `2`)
 
 ### Examples
@@ -88,39 +80,33 @@ Returns **[string][18]**
 addPre0(1) => '01'
 ```
 
-Returns **[string][18]** 
+Returns **[string][17]** 
 
 ## formatDuration
-
-[packages/fn/src/index.ts:85-106][22]
 
 格式化【秒】 => 时:分:秒
 
 ### Parameters
 
-*   `data` **[Number][17]** 秒
+*   `data` **[Number][16]** 秒
 
-Returns **[String][18]** 格式化为\[<HH>:]<mm>:<ss>
+Returns **[String][17]** 格式化为\[<HH>:]<mm>:<ss>
 
 ## isServer
 
-[packages/fn/src/index.ts:111-113][23]
-
 判断是否是 Server 端
 
-Returns **[boolean][24]** 
+Returns **[boolean][18]** 
 
 ## importScript
-
-[packages/fn/src/index.ts:120-136][25]
 
 动态引入脚本
 
 ### Parameters
 
-*   `src` **[String][18]** 脚本地址
+*   `src` **[String][17]** 脚本地址
 
-Returns **[Promise][26]<[HTMLScriptElement][27]>** 创建的 script 元素
+Returns **[Promise][19]<[HTMLScriptElement][20]>** 创建的 script 元素
 
 [1]: #formatnumber
 
@@ -152,26 +138,12 @@ Returns **[Promise][26]<[HTMLScriptElement][27]>** 创建的 script 元素
 
 [15]: #parameters-5
 
-[16]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L15-L36 "Source code on GitHub"
+[16]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
 
-[17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+[17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
-[18]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+[18]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 
-[19]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L45-L58 "Source code on GitHub"
+[19]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
-[20]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L64-L69 "Source code on GitHub"
-
-[21]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L76-L78 "Source code on GitHub"
-
-[22]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L85-L106 "Source code on GitHub"
-
-[23]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L111-L113 "Source code on GitHub"
-
-[24]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
-
-[25]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/fn/src/index.ts#L120-L136 "Source code on GitHub"
-
-[26]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise
-
-[27]: https://developer.mozilla.org/docs/Web/API/HTMLScriptElement
+[20]: https://developer.mozilla.org/docs/Web/API/HTMLScriptElement

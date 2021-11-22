@@ -18,77 +18,59 @@
 
 ## getItem
 
-[packages/cookie/src/index.ts:23-39][14]
-
 获取 cookie 值
 
 ### Parameters
 
-*   `sKey` **[string][15]** cookie key
+*   `sKey` **[string][14]** cookie key
 
-Returns **([string][15] | null)** 
+Returns **([string][14] | null)** 
 
 ## setItem
-
-[packages/cookie/src/index.ts:57-95][16]
 
 设置 cookie 值
 
 ### Parameters
 
-*   `sKey` **[string][15]** cookie key
-*   `sVal` **[string][15]** cookie value
+*   `sKey` **[string][14]** cookie key
+*   `sVal` **[string][14]** cookie value
 *   `oConfig` **ICookieConfig?** cookie 配置
 
-Returns **[boolean][17]** 
+Returns **[boolean][15]** 
 
 ## removeItem
-
-[packages/cookie/src/index.ts:103-122][18]
 
 删除 cookie
 
 ### Parameters
 
-*   `sKey` **[string][15]** cookie key
-*   `sPath` **[string][15]?** cookie path
-*   `sDomain` **[string][15]?** cookie domain
+*   `sKey` **[string][14]** cookie key
+*   `sPath` **[string][14]?** cookie path
+*   `sDomain` **[string][14]?** cookie domain
 
-Returns **[boolean][17]** 
+Returns **[boolean][15]** 
 
 ## hasItem
-
-[packages/cookie/src/index.ts:128-136][19]
 
 判断 cookie 是否存在
 
 ### Parameters
 
-*   `sKey` **[string][15]** cookie key
+*   `sKey` **[string][14]** cookie key
 
-Returns **[boolean][17]** 
+Returns **[boolean][15]** 
 
 ## default
-
-[packages/cookie/src/index.ts:142-147][20]
 
 默认导出所有方法
 
 ## getItem
 
-[packages/cookie/src/index.ts:143-143][21]
-
 ## setItem
-
-[packages/cookie/src/index.ts:144-144][22]
 
 ## removeItem
 
-[packages/cookie/src/index.ts:145-145][23]
-
 ## hasItem
-
-[packages/cookie/src/index.ts:146-146][24]
 
 [1]: #getitem
 
@@ -116,24 +98,6 @@ Returns **[boolean][17]**
 
 [13]: #hasitem-1
 
-[14]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L23-L39 "Source code on GitHub"
+[14]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
-[15]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
-
-[16]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L57-L95 "Source code on GitHub"
-
-[17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
-
-[18]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L103-L122 "Source code on GitHub"
-
-[19]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L128-L136 "Source code on GitHub"
-
-[20]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L142-L147 "Source code on GitHub"
-
-[21]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L143-L143 "Source code on GitHub"
-
-[22]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L144-L144 "Source code on GitHub"
-
-[23]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L145-L145 "Source code on GitHub"
-
-[24]: https://github.com/magnnus/fn-tools/blob/efd831771017ede0c166cf7aba1bf4cd4e28294f/packages/cookie/src/index.ts#L146-L146 "Source code on GitHub"
+[15]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean

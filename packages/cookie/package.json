@@ -10,7 +10,7 @@
     "build": "parcel build --no-source-maps",
     "postbuild": "npm run doc",
     "check": "tsc src --noEmit",
-    "doc": "documentation build src/index.ts --parse-extension ts -f md -o README.md --github --document-exported"
+    "doc": "documentation build src/index.ts --parse-extension ts -f md -o README.md --document-exported"
   },
   "targets": {
     "browser": {
