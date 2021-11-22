@@ -36,7 +36,7 @@ export function formatNumber(
 }
 
 /**
- * 限制展示的最高数字
+ * 限制展示的最大数字
  * @param n - 被转换的数字
  * @param max - 触发转换规则的【阀值】，默认为 99
  * @param suffix - 转换后添加的【后缀符号】，默认为 '+'

@@ -3,6 +3,10 @@
  * @description 模拟 localStorage API 命名和使用方式
  */
 
+/**
+ * @ignore
+ * @param v - cookie 值
+ */
 function decode(v: string): string {
   try {
     return decodeURIComponent(v);
@@ -12,6 +16,10 @@ function decode(v: string): string {
   }
 }
 
+/**
+ * 获取 cookie 值
+ * @param sKey - cookie key
+ */
 export const getItem = (sKey: string): string | null => {
   if (!sKey) {
     return null;
@@ -30,6 +38,9 @@ export const getItem = (sKey: string): string | null => {
   return null;
 };
 
+/**
+ * @ignore
+ */
 export interface ICookieConfig {
   path?: string;
   domain?: string;
@@ -37,6 +48,12 @@ export interface ICookieConfig {
   secure?: boolean;
 }
 
+/**
+ * 设置 cookie 值
+ * @param sKey - cookie key
+ * @param sVal - cookie value
+ * @param oConfig - cookie 配置
+ */
 export const setItem = (
   sKey: string,
   sVal: string,
@@ -77,6 +94,12 @@ export const setItem = (
   return true;
 };
 
+/**
+ * 删除 cookie
+ * @param sKey - cookie key
+ * @param sPath - cookie path
+ * @param sDomain - cookie domain
+ */
 export const removeItem = (
   sKey: string,
   sPath?: string,
@@ -98,6 +121,10 @@ export const removeItem = (
   return true;
 };
 
+/**
+ * 判断 cookie 是否存在
+ * @param sKey - cookie key
+ */
 export const hasItem = (sKey: string): boolean => {
   if (!sKey) {
     return false;
@@ -108,6 +135,10 @@ export const hasItem = (sKey: string): boolean => {
   ).test(document.cookie);
 };
 
+/**
+ * 默认导出所有方法
+ * @alias default
+ */
 export default {
   getItem,
   setItem,
