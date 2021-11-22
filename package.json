@@ -5,6 +5,7 @@
     "prepare": "husky install",
     "pretty": "prettier --write .",
     "lint": "eslint --cache --fix . && npm run pretty",
+    "prepublish": "git-branch-is main -i && echo Pre-Release Checks Passed!",
     "publish": "lerna publish",
     "bootstrap": "lerna bootstrap"
   },
@@ -18,6 +19,7 @@
     "eslint-config-airbnb-typescript": "~15.0.0",
     "eslint-config-prettier": "~8.3.0",
     "eslint-plugin-import": "~2.25.3",
+    "git-branch-is": "~4.0.0",
     "husky": "~7.0.4",
     "lerna": "^3.22.1",
     "lint-staged": "~12.0.2",
