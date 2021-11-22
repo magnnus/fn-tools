@@ -137,7 +137,7 @@ export const hasItem = (sKey: string): boolean => {
 
 /**
  * 默认导出所有方法
- * @alias default
+ * @ignore
  */
 export default {
   getItem,
