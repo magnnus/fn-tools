@@ -1,0 +1,50 @@
+{
+  "name": "@autots/fn",
+  "version": "1.0.0",
+  "description": "collection of common tool functions",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "targets": {
+    "main": {
+      "isLibrary": true
+    }
+  },
+  "scripts": {
+    "build": "parcel build --no-source-maps",
+    "check": "tsc src --noEmit"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnnus/fn-tools.git",
+    "directory": "packages/fn"
+  },
+  "keywords": [
+    "tool",
+    "functions",
+    "typescript"
+  ],
+  "author": "Magn Mah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magnnus/fn-tools/issues"
+  },
+  "homepage": "https://github.com/magnnus/fn-tools/packages/fn#readme",
+  "devDependencies": {
+    "@parcel/packager-ts": "~2.0.1",
+    "@parcel/transformer-typescript-types": "~2.0.1",
+    "parcel": "^2.0.1",
+    "typescript": "~4.5.2"
+  },
+  "dependencies": {
+    "core-js": "~3.19.1"
+  }
+}

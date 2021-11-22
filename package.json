@@ -4,7 +4,9 @@
   "scripts": {
     "prepare": "husky install",
     "pretty": "prettier --write .",
-    "lint": "eslint --cache --fix . && npm run pretty"
+    "lint": "eslint --cache --fix . && npm run pretty",
+    "publish": "lerna publish",
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
     "@commitlint/cli": "~15.0.0",
