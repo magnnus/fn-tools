@@ -10,11 +10,6 @@
     *   [Parameters][6]
 *   [hasItem][7]
     *   [Parameters][8]
-*   [default][9]
-*   [getItem][10]
-*   [setItem][11]
-*   [removeItem][12]
-*   [hasItem][13]
 
 ## getItem
 
@@ -22,9 +17,9 @@
 
 ### Parameters
 
-*   `sKey` **[string][14]** cookie key
+*   `sKey` **[string][9]** cookie key
 
-Returns **([string][14] | null)** 
+Returns **([string][9] | null)** 
 
 ## setItem
 
@@ -32,11 +27,11 @@ Returns **([string][14] | null)**
 
 ### Parameters
 
-*   `sKey` **[string][14]** cookie key
-*   `sVal` **[string][14]** cookie value
+*   `sKey` **[string][9]** cookie key
+*   `sVal` **[string][9]** cookie value
 *   `oConfig` **ICookieConfig?** cookie 配置
 
-Returns **[boolean][15]** 
+Returns **[boolean][10]** 
 
 ## removeItem
 
@@ -44,11 +39,11 @@ Returns **[boolean][15]**
 
 ### Parameters
 
-*   `sKey` **[string][14]** cookie key
-*   `sPath` **[string][14]?** cookie path
-*   `sDomain` **[string][14]?** cookie domain
+*   `sKey` **[string][9]** cookie key
+*   `sPath` **[string][9]?** cookie path
+*   `sDomain` **[string][9]?** cookie domain
 
-Returns **[boolean][15]** 
+Returns **[boolean][10]** 
 
 ## hasItem
 
@@ -56,21 +51,9 @@ Returns **[boolean][15]**
 
 ### Parameters
 
-*   `sKey` **[string][14]** cookie key
+*   `sKey` **[string][9]** cookie key
 
-Returns **[boolean][15]** 
-
-## default
-
-默认导出所有方法
-
-## getItem
-
-## setItem
-
-## removeItem
-
-## hasItem
+Returns **[boolean][10]** 
 
 [1]: #getitem
 
@@ -88,16 +71,6 @@ Returns **[boolean][15]**
 
 [8]: #parameters-3
 
-[9]: #default
+[9]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
-[10]: #getitem-1
-
-[11]: #setitem-1
-
-[12]: #removeitem-1
-
-[13]: #hasitem-1
-
-[14]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
-
-[15]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
+[10]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean
