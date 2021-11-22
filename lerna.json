@@ -5,8 +5,7 @@
   "command": {
     "publish": {
       "ignoreChanges": ["*.md"],
-      "message": "chore(release): publish new version",
-      "registry": "https://registry.npmjs.com"
+      "message": "chore(release): publish new version"
     },
     "bootstrap": {
       "npmClientArgs": ["--no-package-lock"]
